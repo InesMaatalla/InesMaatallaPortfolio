@@ -1,0 +1,59 @@
+.destinations {
+  text-align: center;
+  background: url("../../images/3.jpeg") center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  margin-top: -80px;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.destinations > h1 {
+  color: #fff;
+  font-size: 100px;
+  margin-top: 0px;
+  line-height: 1em;
+}
+
+.destination {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  opacity: 0;
+  transform: scale(85%);
+  transition: 2s;
+}
+
+.destination_zoom {
+  opacity: 1;
+  transform: scale(100%);
+  transition: 2s;
+}
+
+.destination_image {
+  width: 40%;
+  border-radius: 0.5rem;
+}
+
+.destination_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .slider {
+    flex-direction: column;
+    background-color: rgb(236, 236, 236);
+  }
+
+  .destination_image {
+    width: 100%;
+  }
+}
