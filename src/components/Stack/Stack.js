@@ -21,23 +21,22 @@ const Stack = () => {
                 <div className="stack">
                     <FcApproval className="icon-1"/>
                     <h3>Languages</h3>
-                    <p> Ruby on Rails, Java, PHP, C#, HTML, CSS, JavaScript</p>
+                    <p> Java, PHP, JavaScript, Python</p>
                 </div>
                 <div className="stack">
                         <FcApproval className="icon-1"/>
                         <h3>Environments</h3>
-                        <p>Intelli J, WebStorm, PHPStorm, Eclipse, Android Studio</p>
+                        <p>Intelli J, WebStorm, PHPStorm, Vs Code</p>
                     </div>
                 <div className="stack">
                         <FcApproval className="icon-1"/>
                         <h3>Frameworks / Platforms</h3>
-                        <p>React, Angular, JQuery, Symfony, Spring, Tomcat, JPA, Hibernate, Xamarin, <br/>
-                        Ionic, ASP.net, Apache under Linux</p>
+                        <p>React, Angular, Symfony, Spring, Flask</p>
                     </div>
                 <div className="stack">
                         <FcApproval className="icon-1"/>
-                        <h3>CMS</h3>
-                        <p>Wordpress</p>
+                        <h3>Continuous integration</h3>
+                        <p>Git, GitLab, Jenkins, units tests</p>
                     </div>
                 <div className="stack">
                         <FcApproval className="icon-1"/>
@@ -47,7 +46,7 @@ const Stack = () => {
                 <div className="stack">
                         <FcApproval className="icon-1"/>
                         <h3>DataBases</h3>
-                        <p>MySQL, SQLServer, Oracle</p>
+                        <p>MySQL, SQLServer, Oracle, PostgreSQL</p>
                     </div>
                 <div className="stack">
                         <FcApproval className="icon-1"/>
@@ -57,7 +56,7 @@ const Stack = () => {
                 <div className="stack">
                         <FcApproval className="icon-1"/>
                         <h3>Modelisation</h3>
-                        <p>UI / UX Design, Video Editing (GoPro)</p>
+                        <p>UI/UX Design, Figma, Video Editing (GoPro)</p>
                 </div>            
             </div>
         </div>
